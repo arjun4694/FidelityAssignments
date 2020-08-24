@@ -1,0 +1,7 @@
+Object - Gas Stove
+State - On and Off, 2 burner, 3 burner, electric
+Behaviour - Turn on while cooking and Turn Off after cooking
+
+Object - TV
+State - different sizes, quality,Modes, Controlled by Internet, On and Off
+Behaviour - Playing Music, Displaying video
