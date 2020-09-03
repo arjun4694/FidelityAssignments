@@ -16,7 +16,8 @@ public class Rightangeledtriangle {
 			list.add(Integer.parseInt(splitSides[i].trim()));
 		}
 		 Collections.sort(list,Collections.reverseOrder());
-		 if((Math.pow(list.get(0), 2))==(Math.pow(list.get(1), 2))+(Math.pow(list.get(2), 2))) 
+		// if((Math.pow(list.get(0), 2))==(Math.pow(list.get(1), 2))+(Math.pow(list.get(2), 2)))
+		 if((list.get(0)*list.get(0))==(list.get(1)*list.get(1))+(list.get(2)*list.get(2)))
 			 System.out.println("The provided input are edges of right angeled triange i.e., \n" +Math.pow(list.get(0), 2)+" = " +Math.pow(list.get(1), 2)+" + " +Math.pow(list.get(2), 2));
 		 else
 			 System.out.println("The provided input are not the edges of right angeled triange i.e., \n " +Math.pow(list.get(0), 2)+" = " +Math.pow(list.get(1), 2)+" + " +Math.pow(list.get(2), 2));
