@@ -5,9 +5,11 @@ import java.io.File;
 public class ListOfFileOrDirectory {
 
 	public static void main(String[] args) {
-		String path = System.getProperty("user.dir");
-		 File file = new File(path);
-
+		 File file = new File("C:\\Users\\User");
+		 String[] fileList = file.list();
+	        for(String name:fileList){
+	         System.out.println(name);
+	        }
 	}
 
 }
